@@ -55,10 +55,10 @@
     <Compile Include="Day4\ClassWork\Point.cs" />
     <Compile Include="Day4\ClassWork\StaticDemo.cs" />
     <Compile Include="Day4\ClassWork\Student.cs" />
+    <Compile Include="Fourth.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Second.cs" />
-    <Compile Include="Third.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

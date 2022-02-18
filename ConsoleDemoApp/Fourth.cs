@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleDemoApp
 {
-    internal class Third
+    internal class Fourth
     {
     }
 }

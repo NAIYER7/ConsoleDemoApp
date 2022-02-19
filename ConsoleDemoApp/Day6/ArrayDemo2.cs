@@ -43,6 +43,38 @@ namespace ConsoleDemoApp.Day6
             Console.WriteLine(jagged[0].Rank);
             Display(jagged);
 
+            //jagged 2-D array 
+            int[][,] jagged2D = new int[4][,]
+                           {
+                                new int[3,3]{ {1,2,3 },{4,5,6 },{7,8,9 } },//9,2
+                                new int[2,2] { { 1,2},{ 3,4} },   //4,2
+                                new int[2,3] { { 1,2,3},{ 4,5,6} },  //6,2
+                                new int[4,4] { { 1,2,3,4},{ 5,6,7,8},{ 9,10,11,12},{ 13,14,15,16} }//16,2
+                           };
+            //displaying jagged array data using foreach
+
+            Console.WriteLine("Jagged 2-D array data using foreach:");
+
+            //foreach (int[]row in jagged)
+            int count = 0;
+            foreach (int[,] row in jagged2D)
+            {
+                int len = row.GetLength(1);//3,2,4
+                Console.Write("Matrix:\n");
+                foreach (var item in row)
+                {
+                    Console.Write(item+"\t");
+                    count++;
+                    if (count == len)
+                    {
+                        Console.WriteLine();
+                        count = 0;
+                    }
+                }
+                Console.WriteLine();                
+            }
+
+
 
         }
     }

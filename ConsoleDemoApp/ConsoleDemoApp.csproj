@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleDemoApp.Day6.ExtensionTest</StartupObject>
+    <StartupObject>ConsoleDemoApp.Day6.ArrayDemo2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,8 @@
     <Compile Include="Day4\ClassWork\Point.cs" />
     <Compile Include="Day4\ClassWork\StaticDemo.cs" />
     <Compile Include="Day4\ClassWork\Student.cs" />
+    <Compile Include="Day6\ArrayDemo1.cs" />
+    <Compile Include="Day6\ArrayDemo2.cs" />
     <Compile Include="Day6\Employee.cs" />
     <Compile Include="Day6\EmployeeExtension.cs" />
     <Compile Include="Day6\Student.cs" />

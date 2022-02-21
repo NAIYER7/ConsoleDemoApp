@@ -50,6 +50,7 @@ namespace ConsoleDemoApp.Day7
             Console.WriteLine(sb.Length);
             Console.WriteLine(sb.Capacity);
             Console.WriteLine(sb);
+           
 
 
 

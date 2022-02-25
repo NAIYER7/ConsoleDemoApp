@@ -73,12 +73,6 @@ namespace ConsoleDemoApp.DelegateDemo
             //myDelegate-= t2.Multiply;
             //res = myDelegate.Invoke(50, 20);//
             //Console.WriteLine("result:" + res);//1000
-
-
-
-
-
-
         }
     }
 }

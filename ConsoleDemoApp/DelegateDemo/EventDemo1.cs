@@ -11,7 +11,6 @@ namespace ConsoleDemoApp.DelegateDemo
     {
         //Event Decln
         public event MyEventHandler CheckSingleDigit;
-
         //handler method
         static void Message() {
             Console.WriteLine("you entered a single digit number");
@@ -33,7 +32,7 @@ namespace ConsoleDemoApp.DelegateDemo
                 num = Int32.Parse(Console.ReadLine());
                 if (num > 0 && num < 10) {
                     //ev.CheckSingleDigit.Invoke();
-                    ev.CheckSingleDigit();//evnt invocation
+                    ev.CheckSingleDigit();//event invocation
                 }
             }
 
